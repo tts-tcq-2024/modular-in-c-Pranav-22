@@ -15,21 +15,10 @@ GREEN,
 BROWN, 
 SLATE}cable_minor_color;
 
-const int MAX_COLORPAIR_NAME_CHARS = 16;
-
 typedef struct {
     cable_major_color majorColor;
     cable_minor_color minorColor;
 } ColorPair;
-
-
-const char* MajorColorNames[] = {
-    "White", "Red", "Black", "Yellow", "Violet"
-};
-
-const char* MinorColorNames[] = {
-    "Blue", "Orange", "Green", "Brown", "Slate"
-};
 
 ColorPair GetColorFromPairNumber(int pairNumber);
 
