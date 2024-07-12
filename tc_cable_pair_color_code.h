@@ -31,4 +31,8 @@ const char* MinorColorNames[] = {
     "Blue", "Orange", "Green", "Brown", "Slate"
 };
 
+ColorPair GetColorFromPairNumber(int pairNumber);
+
+int GetPairNumberFromColor(const ColorPair* colorPair);
+
 #endif
