@@ -1,6 +1,7 @@
 #include "color_code_unit_test.h"
-#include "pair_color_code.h"
+#include "tc_cable_pair_color_code.h"
 #include <assert.h>
+#include <stdio.h>
 
 void testNumberToPair(int pairNumber,enum MajorColor expectedMajor, enum MinorColor expectedMinor)
 {
