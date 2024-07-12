@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include "tc_cable_pair_color_code.h"
 #include "color_code_unit_test.h"
 
 int numberOfMajorColors =
