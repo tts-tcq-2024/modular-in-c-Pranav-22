@@ -3,7 +3,7 @@
 #include <assert.h>
 #include <stdio.h>
 
-void testNumberToPair(int pairNumber,enum MajorColor expectedMajor, enum MinorColor expectedMinor)
+void testNumberToPair(int pairNumber,cable_major_color expectedMajor, cable_minor_color expectedMinor)
 {
     ColorPair colorPair = GetColorFromPairNumber(pairNumber);
     char colorPairNames[MAX_COLORPAIR_NAME_CHARS];
@@ -13,7 +13,7 @@ void testNumberToPair(int pairNumber,enum MajorColor expectedMajor, enum MinorCo
     assert(colorPair.minorColor == expectedMinor);
 }
 
-void testPairToNumber(enum MajorColor major, enum MinorColor minor, int expectedPairNumber)
+void testPairToNumber(cable_major_color major, cable_minor_color minor, int expectedPairNumber)
 {
     ColorPair colorPair;
     colorPair.majorColor = major;
