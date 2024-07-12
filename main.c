@@ -1,14 +1,6 @@
 #include <stdio.h>
-#include "pair_color_code.h"
+#include "tc_cable_pair_color_code.h"
 #include "color_code_unit_test.h"
-
-const char* MajorColorNames[] = {
-    "White", "Red", "Black", "Yellow", "Violet"
-};
-
-const char* MinorColorNames[] = {
-    "Blue", "Orange", "Green", "Brown", "Slate"
-};
 
 int numberOfMajorColors =
     sizeof(MajorColorNames) / sizeof(MajorColorNames[0]);
