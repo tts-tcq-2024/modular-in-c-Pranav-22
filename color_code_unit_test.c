@@ -1,5 +1,4 @@
 #include "color_code_unit_test.h"
-#include "tc_cable_pair_color_code.h"
 #include <assert.h>
 #include <stdio.h>
 
