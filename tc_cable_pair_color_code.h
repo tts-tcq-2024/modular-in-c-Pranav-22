@@ -20,10 +20,22 @@ typedef struct {
     cable_minor_color minorColor;
 } ColorPair;
 
+
+typedef struct
+{
+  int cable_num;
+  char cable_major[10];
+  char cable_minor[10];
+}map;
+
 ColorPair GetColorFromPairNumber(int pairNumber);
 
 int GetPairNumberFromColor(const ColorPair* colorPair);
 
 void ColorPairToString(const ColorPair* colorPair, char* buffer);
+
+void cable_pair_mapping_manual(map *map_manual);
+
+void cable_pair_manual_print(map *map_manual);
 
 #endif
