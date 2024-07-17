@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "tc_cable_pair_color_code.h"
 
 void cable_pair_mapping_manual(map *map_manual)
