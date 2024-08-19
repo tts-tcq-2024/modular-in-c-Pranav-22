@@ -23,10 +23,3 @@ void testPairToNumber(cable_major_color major, cable_minor_color minor, int expe
     printf("Got pair number %d\n", pairNumber);
     assert(pairNumber == expectedPairNumber);
 }
-
-void testmanualpairprinting(void)
-{
-    map map_manual[25];
-    cable_pair_mapping_manual(map_manual);
-    cable_pair_manual_print(map_manual);
-}
